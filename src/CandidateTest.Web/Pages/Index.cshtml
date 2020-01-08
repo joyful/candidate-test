@@ -1,0 +1,33 @@
+﻿@page
+@model CandidateTest.Web.Pages.IndexModel
+
+<style>
+    header.jumbotron {
+        background-image: url('/images/hero.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+    
+    header .lead {
+        background-color: #343a40;
+        background-color: rgba(52, 58, 64, 0.6);
+        padding: 15px;
+    }
+</style>
+
+<header class="jumbotron my-4" style="background-image: url('/images/hero.jpg')">
+    <h1 class="display-3">We need your help!</h1>
+    <p class="lead">In order to hit our fundraising goals, we are calling for an additional £100,000 in aid. Without this, thousands of people could be affected over the world.</p>
+    <a href="#" class="btn btn-primary btn-lg">Find out how you could help!</a>
+</header>
+
+
+<h2>Our top appeals:</h2>
+<div class="row text-center">
+    <partial name="Partials/Appeal" model="null" />
+    <partial name="Partials/Appeal" model="null" />
+    <partial name="Partials/Appeal" model="null" />
+    <partial name="Partials/Appeal" model="null" />
+</div>
