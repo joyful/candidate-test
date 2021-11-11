@@ -25,4 +25,10 @@
     <ProjectReference Include="..\..\src\CandidateTest.Web\CandidateTest.Web.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="..\..\src\CandidateTest.Web\donations.xml" Link="donations.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

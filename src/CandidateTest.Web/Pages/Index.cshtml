@@ -31,3 +31,11 @@
     <partial name="Partials/Appeal" model="null" />
     <partial name="Partials/Appeal" model="null" />
 </div>
+
+<h2>Our most recent donations:</h2>
+<div class="row text-center">
+    @foreach (var recentDonation in Model.RecentDonations)
+    {
+        <partial name="Partials/Donation" model="recentDonation" />
+    }
+</div>

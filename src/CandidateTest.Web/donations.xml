@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <donations>
+    <Name>Carl Zeiss</Name>
+    <Date>2021-11-09T19:32:52+00:00</Date>
+    <IsAnonymous>false</IsAnonymous>
+    <Amount>2765</Amount>
+  </donations>
+  <donations>
+    <Name>Mike Somosh</Name>
+    <Date>2021-11-07T08:11:32+00:00</Date>
+    <IsAnonymous>true</IsAnonymous>
+    <Amount>1.67</Amount>
+  </donations>
+  <donations>
+    <Name>Mallie Raynor</Name>
+    <Date>2021-01-07T10:11:11+00:00</Date>
+    <IsAnonymous>false</IsAnonymous>
+    <Amount>52</Amount>
+  </donations>
+  <donations>
+    <Name>Stuart Rempel</Name>
+    <Date>2021-05-02T14:01:55+01:00</Date>
+    <IsAnonymous>false</IsAnonymous>
+    <Amount>22</Amount>
+  </donations>
+  <donations>
+    <Name>Rhoda Hills</Name>
+    <Date>2020-02-02T16:01:35+00:00</Date>
+    <IsAnonymous>false</IsAnonymous>
+    <Amount>43</Amount>
+  </donations>
+</NewDataSet>
